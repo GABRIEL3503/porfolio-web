@@ -1,0 +1,168 @@
+@media (max-width: 768px) {
+
+        section.menu {
+            flex-direction: column;
+            margin-top: 27px;
+        }
+    
+        .menu__list {
+            flex-direction: column;
+        }
+    
+    
+    
+        .img__hero {
+            width: auto;
+            margin-top: -135px;
+        }
+    
+        .parallax {
+            height: 679px;
+        }
+    
+        .title__div {
+            margin-right: 120px;
+            flex-wrap: wrap;
+        }
+    
+        section.about {
+            padding: 51px 34px;
+        }
+    
+        .experiencie__box {
+            flex-wrap: wrap;
+         
+        }
+    
+        .experience__box3 {
+            flex-wrap: wrap;
+          
+        }
+    
+        section.experience {
+            margin: 64px -2px;
+            width: 700px;
+        }
+    
+        .experience__info{
+            text-align: center;
+        margin: 31px 13px 24px 123px;
+        }
+        .experience__info-container{
+            text-align: center;
+        margin: 31px 13px 24px 231px;
+        }
+       
+    
+        
+    }
+    
+    /*Mobile*/
+    @media (max-width: 425px) {
+    
+    
+        section.menu {
+            flex-direction: column;
+            margin-top: 27px;
+        }
+    
+        .menu__list {
+            flex-direction: column;
+        }
+    
+    
+    
+        .img__hero {
+            width: auto;
+            margin-top: -135px;
+        }
+    
+        .parallax {
+            height: 679px;
+        }
+        section.title{
+            width: 50%;
+        }
+        .title__profile {
+            width: 226px;
+            margin-left: 65px;
+        }
+    
+        .title__div {
+            margin-right: 213px;
+            flex-wrap: wrap;
+        }
+    
+        section.about {
+            padding: 51px 34px;
+        }
+        .about{
+            text-align: center;
+        }
+        /*Menu*/
+    
+    
+    
+        /*Titulo*/ 
+        .title__container{
+            margin-left: 61px;
+            width: 269px;
+        }
+    
+        .title__container h2 {
+            text-align: center;
+            font-size: 25px;
+            font-weight: 700;
+            line-height: 31px;}
+    
+            .title__container h3 {
+                font-size: 17px;
+                line-height: 23px;
+                width: 265px;
+                margin-bottom: 30px;
+                text-align: center;}
+    
+                .about__container{
+                    width: 290px;
+                }
+        /*Sección sobre mi*/
+    
+        /*Skills*/
+        section.skills{
+            width: 367px;
+            margin: 4px 15px;
+        }
+        section.hobbies{
+            width: 367px;
+            margin: 4px 15px; 
+        }
+        
+    
+        /*Hobbies*/
+        .img_logo_hobbie :hover{
+            border: 1px red;
+        }
+    
+        /*Formación Académica*/
+        .academic__courses {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        /*Experiencia Profesional*/
+        section.experience {
+            width: 300px;
+        }
+    .experience__img{
+        width: 300px;
+    }
+        /*Contacto*/
+
+        section .formcontato__img{
+            display: none;
+        }
+    .formcontato{
+        width: 372px;
+    } 
+        /*Footer*/
+    
+    }
